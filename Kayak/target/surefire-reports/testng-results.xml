@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="133472" started-at="2019-03-28T06:26:49Z" finished-at="2019-03-28T06:29:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11" started-at="2019-03-28T06:26:49Z" finished-at="2019-03-28T06:26:49Z">
+    </test> <!-- Test -->
+    <test name="TodayDeals" duration-ms="42415" started-at="2019-03-28T06:26:49Z" finished-at="2019-03-28T06:27:31Z">
+      <class name="Booking.Deals">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Booking.Deals@2805d709]" name="initialize" is-config="true" duration-ms="36577" started-at="2019-03-28T06:26:49Z" finished-at="2019-03-28T06:27:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TodayDeals()[pri:0, instance:Booking.Deals@2805d709]" name="TodayDeals" duration-ms="5486" started-at="2019-03-28T06:27:26Z" finished-at="2019-03-28T06:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TodayDeals -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Booking.Deals@2805d709]" name="tearDown" is-config="true" duration-ms="189" started-at="2019-03-28T06:27:31Z" finished-at="2019-03-28T06:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Booking.Deals -->
+    </test> <!-- TodayDeals -->
+    <test name="HomePage" duration-ms="55382" started-at="2019-03-28T06:27:31Z" finished-at="2019-03-28T06:28:27Z">
+      <class name="Booking.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Booking.HomePage@6404f418]" name="initialize" is-config="true" duration-ms="7824" started-at="2019-03-28T06:27:31Z" finished-at="2019-03-28T06:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginPage(java.lang.String)[pri:0, instance:Booking.HomePage@6404f418]" name="loginPage" duration-ms="34480" started-at="2019-03-28T06:27:39Z" data-provider="getData" finished-at="2019-03-28T06:28:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sujitha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="loginPage(java.lang.String)[pri:0, instance:Booking.HomePage@6404f418]" name="loginPage" duration-ms="12656" started-at="2019-03-28T06:28:14Z" data-provider="getData" finished-at="2019-03-28T06:28:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sowmi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Booking.HomePage@6404f418]" name="tearDown" is-config="true" duration-ms="411" started-at="2019-03-28T06:28:26Z" finished-at="2019-03-28T06:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Booking.HomePage -->
+    </test> <!-- HomePage -->
+    <test name="Category" duration-ms="35516" started-at="2019-03-28T06:28:27Z" finished-at="2019-03-28T06:29:02Z">
+      <class name="Booking.Category">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Booking.Category@2c1b194a]" name="initialize" is-config="true" duration-ms="16861" started-at="2019-03-28T06:28:27Z" finished-at="2019-03-28T06:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ExploreCategory()[pri:0, instance:Booking.Category@2c1b194a]" name="ExploreCategory" duration-ms="16353" started-at="2019-03-28T06:28:44Z" finished-at="2019-03-28T06:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExploreCategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Booking.Category@2c1b194a]" name="tearDown" is-config="true" duration-ms="2301" started-at="2019-03-28T06:29:00Z" finished-at="2019-03-28T06:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Booking.Category -->
+    </test> <!-- Category -->
+  </suite> <!-- Suite -->
+</testng-results>

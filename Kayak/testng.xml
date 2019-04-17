@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Booking.listeners"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Booking.AppTest"/>
+      </classes>
+      </test>
+      <test name="TodayDeals">
+      <classes>
+      <class name="Booking.Deals"/>
+      </classes>
+      </test>
+      <test name="HomePage">
+      <classes>
+      <class name="Booking.HomePage"/>
+      </classes>
+      </test>
+      <test name="Category">
+      <classes>
+      <class name="Booking.Category"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

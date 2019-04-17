@@ -1,0 +1,9 @@
+11:58:14.086 [main] INFO  resources.base - Submit clicked
+11:58:23.285 [main] INFO  resources.base - Navigate to the url
+11:58:25.043 [main] INFO  resources.base - Login clicked
+11:58:25.514 [main] INFO  resources.base - Username Entered
+11:58:26.952 [main] INFO  resources.base - Submit clicked
+11:58:36.604 [main] INFO  resources.base - Initialize the driver
+11:58:44.237 [main] INFO  resources.base - Enter the url
+11:58:52.926 [main] INFO  resources.base - Click the category
+11:59:00.590 [main] INFO  resources.base - Click the home

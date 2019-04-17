@@ -1,0 +1,9 @@
+11:23:48.793 [main] INFO  resources.base - Enter the url
+11:23:51.758 [main] INFO  resources.base - Click the category
+11:57:13.691 [main] INFO  resources.base - Initialize the driver
+11:57:26.029 [main] INFO  resources.base - Enter the url
+11:57:31.673 [main] INFO  resources.base - Todays deal clicked
+11:57:39.805 [main] INFO  resources.base - Initialize the driver
+11:58:02.159 [main] INFO  resources.base - Navigate to the url
+11:58:09.361 [main] INFO  resources.base - Login clicked
+11:58:10.635 [main] INFO  resources.base - Username Entered
