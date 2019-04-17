@@ -31,6 +31,10 @@ public void ExploreCategory() throws IOException {
 	log.info("Click the category");
 	fi.Home().click();
 	log.info("Click the home");
+	System.out.println("Hello");
+	System.out.println("Hello1");
+	System.out.println("Hello2");
+	
 }
 @AfterTest
 public void tearDown() {

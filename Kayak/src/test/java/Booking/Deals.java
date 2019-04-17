@@ -31,6 +31,7 @@ public class Deals extends base {
 		FirstPage fi=new FirstPage(driver);
 		fi.Deal().click();
 		log.info("Todays deal clicked");
+		System.out.println("Hi");
 	}
 	@AfterTest
 	public void tearDown() {
