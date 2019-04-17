@@ -20,6 +20,9 @@ public class Deals extends base {
 		log.info("Initialize the driver");
 		driver.get(prop.getProperty("url"));
 		log.info("Enter the url");
+		System.out.println("Hello");
+		System.out.println("Hello1");
+		System.out.println("Hello2");
 	}
 	@Test
 	public void TodayDeals() throws IOException {
